@@ -4,16 +4,11 @@
 - **Lane:** Refresh / Content Opportunity Scoring
 - **Repo:** https://github.com/DataWithHamza/Flyrank-ML-Internship
 - **Date:** July 2026
-
-> Copy this file to `work/capstone_report.md` and fill it in as you build. Sections 1–8
-> mirror the Pass / Needs-Work rubric axes, so nothing here is optional. Sections 0 and 9
-> are **paper sections**: your deployed research paper must carry both, and they're here so
-> you never rebuild them from memory at ship time.
+  
 
 ## 0. Abstract
 
-Five sentences, written last, placed first: question → data → method → headline result →
-what the output is for. This is the top of your deployed paper.
+This project investigates which website pages should be prioritized for content refresh using historical search and engagement data. The analysis was performed on the anonymized FlyRank ML Internship dataset using engineered page-level features while excluding identifiers and leakage-prone fields. A transparent baseline scoring rule was compared with machine learning models, with Random Forest providing stronger predictive performance on the same evaluation setup. The resulting ranked queue helps content teams identify pages that may deserve manual review before investing editing time. These findings are based on observed historical patterns and are intended as decision-support rather than proof that refreshing a page will improve search performance.
 
 ## 1. Problem framing
 
